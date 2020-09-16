@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    background: url(/Imagenes/prueba.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 275px;
+    border-width: 10px;
+    border-color: green;
+    border-bottom-style: solid;
+}
+
+.contenedor{
+    padding: 1em;
+}
+
+.TituloHeader{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TituloHeader h1{
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+header li{
+    color: black;
+}
+
+.barra p{
+    font-size: 2em;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    font-size: 1em;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 10px;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+nav li a:hover{
+    color: white;
+    background-color: black;
+}
+
+nav li{
+    text-align: center;
+}
+
+nav li ul{
+    display: none;
+}
+
+nav li:hover ul {
+    display:block;
+}
+
+section{
+    padding: 0.5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+section p{
+    font-size: 1.2em;
+    color: gray;
+    margin: 1em;
+}
+
+#Carreras{
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    border-width: 1.5px;
+    border-color: grey;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.InfoCarrera{
+    margin: 0.5em auto;
+    text-align: center;
+    padding: 1em;
+    border-width: 1.5px;
+    border-color: grey;
+    border-top-style: solid;
+    margin-bottom: 1em;
+}
+
+.InfoCarrera h4{
+    font-size: 2.1em;
+}
+
+#ImgSI{
+    background: url(/Imagenes/SistemasInformacion.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 200px;
+    margin: 0.5em auto;
+}
+
+#ImgTI{
+    background: url(/Imagenes/TecnologíasInformacion.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 200px;
+    margin: 0.5em auto;
+}
+
+input{
+    background-color: whitesmoke;
+    font-size: 1em;
+    width: 100px;
+    height: 25px;
+}
+
+input:hover{
+    color: white;
+    background-color: grey;
+}
+
+.info{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h7{
+    color: black;
+}
+
+.info p{
+    padding: 0.5em;
+    border-width: 1px;
+    border-color: grey;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align: center;
+}
+
+ul{
+    font-size: 1.2em;
+    color: grey;
+    text-align: left;
+    list-style: none;
+}
+
+article{
+    width: 80%;
+    margin: 0.5em auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 1em;
+}
+
+article h2{
+    border-width: 1px;
+    background-color: green;
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+}
+
+.Malla{
+    width: 90%;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    background-color: rgba(245, 255, 250, 0.329);
+}
+
+.PDF{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background: url(/Imagenes/prueba.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 110px;
+    padding-top: 1em;
+    border-width: 10px;
+    border-color: green;
+    border-top-style: solid;
+    padding: 1em;
+}
+
+footer li{
+    font-size: 1em;
+}
+
+@media (max-width:700px){
+    
+    nav li:hover ul {
+        display:flex;
+    }
+
+    .TituloHeader h1{
+        text-align: center;
+    }
+
+    input:hover{
+        color: white;
+        background-color: grey;
+    }
+
+    .info{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .info h7{
+        color: black;
+    }
+
+    .info p{
+        padding: 0.5em;
+        border-width: 1px;
+        border-color: grey;
+        border-left-style: solid;
+        border-right-style: solid;
+        text-align: center;
+    }
+}
